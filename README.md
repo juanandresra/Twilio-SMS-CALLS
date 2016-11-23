@@ -11,7 +11,6 @@ Configuracion
 2. Cambiar el ACCOUNT SID y el AUTH TOKEN
  en var client = new twilio.RestClient('{ACCOUNT SID}', '{AUTH TOKEN}');
 3.lanzar el servidor node app
-________________________________________________________________________
 
 Mensaje de texto SMS
 
