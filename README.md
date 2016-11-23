@@ -9,7 +9,7 @@ Configuracion
 
 1. Crear una cuenta en https://www.twilio.com/
 
-2. Cambiar el ACCOUNT SID y el AUTH TOKEN <br> <code>var client = new twilio.RestClient('{ACCOUNT SID}', '{AUTH TOKEN}');<code>
+2. Cambiar el ACCOUNT SID y el AUTH TOKEN <br> <code>var client = new twilio.RestClient('{ACCOUNT SID}', '{AUTH TOKEN}');</code>
 
 3.lanzar el servidor <code>node app</code>
 
