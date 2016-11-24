@@ -5,7 +5,7 @@ Instalacion
 
 1.npm install
 
-Configuracion
+<h1>Configuracion</h1>
 
 1. Crear una cuenta en https://www.twilio.com/
 
@@ -13,12 +13,12 @@ Configuracion
 
 3.lanzar el servidor <code>node app</code>
 
-Mensaje de texto SMS
+<h1>Mensaje de texto SMS</h1>
 
 http://localhost:8080/sms
 parametros post num = numero , msg = mensaje
 
-Hacer una llamada enviando solo texto
+<h1>Hacer una llamada enviando solo texto</h1>
 
 http://localhost:8080/call
 parametros post num = numero , msg = mensaje
@@ -26,9 +26,17 @@ parametros post num = numero , msg = mensaje
 opcionales en la llamada 
 https://www.twilio.com/docs/api/twiml/say
 
-Notas : para efectos de prueba las llamadas solo se permiten gratuitamente en algunos paises
+<h1>Notas</h1>
 
-Tarifas
+Para efectos de prueba las llamadas solo se permiten gratuitamente en algunos paises, debes activar la opcion del pais 
+
+https://www.twilio.com/console/voice/settings/geo-permissions
+
+Se deben registrar y verificar los numeros a enviar mensajes de texto y llamar 
+
+https://www.twilio.com/console/phone-numbers/verified
+
+<h1>Tarifas</h1>
 
 https://www.twilio.com/sms/pricing
 
